@@ -1,0 +1,82 @@
+html {
+	background: GAINSBORO;
+	//background-image: url('/images/cover.picture.jpg');
+	//background-repeat: no-repeat;
+	//background-attachment: fixed;
+	//background-position: center;
+	//background-size: 100%;
+	margin: 0;		
+	padding: 0;
+	height:100%;
+	
+}
+
+div.text { 
+	margin-left: 15%;
+	margin-top: 35%;
+	padding: 3%;
+	min-height: 100%;
+	overflow: auto;
+	background: DEEPSKYBLUE;	
+	color: white;	
+	font-size:1.5vw;
+}
+
+div.profile {
+	padding: 0;
+	margin: 0;
+	display:inline;
+	position: fixed;
+	top: 10%;
+	left: 0;
+	width: 15%;
+	overflow: auto;
+	color: white;
+	background-color: DEEPSKYBLUE;
+	font-size: 2em;
+}
+
+div a.profile {
+	text-decoration: none;
+}
+
+h1 {
+	text-align: center;
+	color: white;	
+	display:inline-block;
+	position: static;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  background-color: DEEPSKYBLUE;
+  position: fixed;  
+  width: 100%;  
+  overflow: auto;  
+  border-bottom: 5px solid GAINSBORO;
+	
+}
+li {
+	display: inline-block;	
+}
+li a {
+  display: inline-block;
+  color: white;
+  padding: 8px 16px;  
+  text-decoration: none;
+  font-size:2vw;
+}
+
+li a.active {
+  background-color: ORANGE;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: DARKORANGE;
+  color: white;
+}
